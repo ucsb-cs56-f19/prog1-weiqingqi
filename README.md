@@ -3,6 +3,11 @@ A simple Spring Boot webapp using:
 * Pulling in Bootstrap from CDN.
 * Github OAuth
 
+# Documentation Links:
+
+* repo name: https://github.com/ucsb-cs56-f19/lab07-weiqingqi
+* on heroku: https://lab07-weiqingqi.herokuapp.com/
+* documentation link: https://ucsb-cs56-f19.github.io/lab07-weiqingqi/
 
 # Running on Localhost.
 
