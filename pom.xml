@@ -140,11 +140,17 @@
             <scope>test</scope>
         </dependency>
 
+
         <dependency>
-            <groupId>org.mockito</groupId>
-            <artifactId>mockito-core</artifactId>
-            <version>2.22.0</version>
-            <scope>test</scope>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-core</artifactId>
+            <version>2.10.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-databind</artifactId>
+            <version>2.10.0</version>
         </dependency>
 
         <!-- Test coverage ( https://www.eclemma.org/jacoco/ )-->
@@ -153,6 +159,15 @@
             <artifactId>jacoco-maven-plugin</artifactId>
             <version>0.8.5</version>
         </dependency>
+
+        <!-- This update Mockito, which is a piece of software that lets us create “Mock Objects” for testing. -->
+        <dependency>
+                <groupId>org.mockito</groupId>
+                <artifactId>mockito-core</artifactId>
+                <version>2.22.0</version>
+                <scope>test</scope>
+        </dependency>       
+
 
     </dependencies>
     <!-- (24) <repositories/> -->
@@ -196,7 +211,7 @@
                     <archive>
                         <manifest>
                             <!-- full package name of class with the main you want to run -->
-                <mainClass>hello.Application</mainClass>
+			    <mainClass>hello.Application</mainClass>
 
                         </manifest>
                     </archive>
