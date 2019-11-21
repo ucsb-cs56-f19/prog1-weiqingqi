@@ -25,7 +25,6 @@ public class EarthquakeQueryService {
 	    HttpHeaders headers = new HttpHeaders();
         headers.setAccept(Arrays.asList(MediaType.APPLICATION_JSON));
         headers.setContentType(MediaType.APPLICATION_JSON);
-
         HttpEntity<String> entity = new HttpEntity<>("body", headers);
 
         String uri = "https://earthquake.usgs.gov/fdsnws/event/1/query";
