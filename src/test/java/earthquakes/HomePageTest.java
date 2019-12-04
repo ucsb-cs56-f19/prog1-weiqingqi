@@ -84,7 +84,7 @@ public class HomePageTest {
         mvc.perform(MockMvcRequestBuilders.get("/").accept(MediaType.TEXT_HTML))
                 .andExpect(status().isOk())
                 .andExpect(xpath("/html/body/div/nav/div/ul[1]/li[2]/a").exists())
-                .andExpect(xpath("/html/body/div/nav/div/ul[1]/li[2]/a").string("Location Search"));
+                .andExpect(xpath("/html/body/div/nav/div/ul[1]/li[2]/a").string("Location"));
     }
 
     @Test
