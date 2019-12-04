@@ -1,9 +1,9 @@
-package hello;
+package earthquakes;
 
 // import static org.hamcrest.Matchers.equalTo;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.content;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
-import hello.controllers.HomeController;
+import earthquakes.controllers.HomeController;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

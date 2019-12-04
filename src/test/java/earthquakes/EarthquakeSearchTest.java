@@ -1,7 +1,7 @@
-package hello;
+package earthquakes;
 
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
-import hello.controllers.EarthquakesController;
+import earthquakes.controllers.EarthquakesController;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
