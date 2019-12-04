@@ -1,6 +1,7 @@
 package hello;
 
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
+import hello.controllers.EarthquakesController;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -24,7 +25,7 @@ import static org.springframework.security.test.web.servlet.request.SecurityMock
 
 
 @RunWith(SpringRunner.class)
-@WebMvcTest(WebController.class)
+@WebMvcTest(EarthquakesController.class)
 public class EarthquakeSearchTest {
 
     @Autowired
